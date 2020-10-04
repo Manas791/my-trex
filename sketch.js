@@ -58,8 +58,8 @@ if (playerscore%100==0&& playerscore>0) {
     
 }
 
-if (touches.length>0||keyDown("space")&& trex.y>=height-500 ) {
- trex.velocityY=-15  
+if (touches.length>0||keyDown("space")&& trex.y>=240 ) {
+ trex.velocityY=-10  
 //playSound("sound://category_explosion/puzzle_game_break_magic_02.mp3");
 touches=[]
 }
